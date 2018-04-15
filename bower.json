@@ -29,7 +29,6 @@
         "ng1"
     ],
     "ignore": [
-        "**/*",
         "node_modules",
         "bower_components",
         "src"
