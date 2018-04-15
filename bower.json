@@ -1,7 +1,7 @@
 {
     "name": "angular1-filters",
     "description": "A collection of useful filters for AngularJS",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "main": "dist/angular1-filters.min.js",
     "homepage": "https://github.com/lucasayres/angular1-filters",
