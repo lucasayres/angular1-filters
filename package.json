@@ -1,0 +1,37 @@
+{
+    "name": "angular1-filters",
+    "description": "A collection of useful filters for AngularJS",
+    "version": "0.0.1",
+    "license": "MIT",
+    "main": "dist/angular1-filters.min.js",
+    "homepage": "https://github.com/lucasayres/angular1-filters",
+    "author": "Lucas Ayres <lucasayres@startonapp.com>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/lucasayres/angular1-filters.git"
+    },
+    "engines": {
+        "node": "stable"
+    },
+    "keywords": [
+        "angular",
+        "angular1",
+        "filter",
+        "filters",
+        "angular1-filters",
+        "angular-filters",
+        "pipe",
+        "pipes",
+        "mask",
+        "masks",
+        "ng1"
+    ],
+    "maintainers": [{
+        "name": "Lucas Ayres",
+        "website": "https://lucasayres.com.br"
+    }],
+    "devDependencies": {
+        "angular": "^1.6.9",
+        "angular-mocks": "^1.6.9",
+    }
+}
