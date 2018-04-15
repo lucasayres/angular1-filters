@@ -4,11 +4,15 @@ A collection of useful filters for [AngularJS](http://angularjs.org/).
 
 ## Install
 
-You can install the latest version of `angular1-filters` with `npm`:
+You can install the latest version of `angular1-filters` with `npm` or `bower`:
 
 
 ```bash
-$ npm install algular1-filters --save
+$ npm install angular1-filters
+```
+
+```bash
+$ bower install angular1-filters
 ```
 
 After running just put inside the modules of your application:

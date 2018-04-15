@@ -5,11 +5,16 @@
     "license": "MIT",
     "main": "dist/angular1-filters.min.js",
     "homepage": "https://github.com/lucasayres/angular1-filters",
-    "author": "Lucas Ayres <lucasayres@startonapp.com>",
+    "authors": [
+        "Lucas Ayres <lucasayres@startonapp.com>"
+    ],
     "repository": {
         "type": "git",
         "url": "git://github.com/lucasayres/angular1-filters.git"
     },
+    "moduleType": [
+        "globals"
+    ],
     "keywords": [
         "angular",
         "angular1",
@@ -23,15 +28,16 @@
         "masks",
         "ng1"
     ],
-    "maintainers": [{
-        "name": "Lucas Ayres",
-        "website": "https://lucasayres.com.br"
-    }],
+    "ignore": [
+        "**/*",
+        "node_modules",
+        "bower_components",
+        "src"
+    ],
+    "dependencies": {
+        "angular": "~1.6.9"
+    },
     "devDependencies": {
-        "angular": "^1.6.9",
-        "angular-mocks": "^1.6.9"
-    },
-    "engines": {
-        "node": "stable"
-    },
+        "angular-mocks": "~1.6.9"
+    }
 }

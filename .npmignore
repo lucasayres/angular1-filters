@@ -1,9 +1,0 @@
-.git
-.gitignore
-LICENSE
-README.md
-node_modules
-npm-debug.log
-package.json
-.gitlab-ci.yml
-.idea
