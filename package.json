@@ -32,6 +32,6 @@
     }],
     "devDependencies": {
         "angular": "^1.6.9",
-        "angular-mocks": "^1.6.9",
+        "angular-mocks": "^1.6.9"
     }
 }
