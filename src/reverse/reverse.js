@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('angular-filters')
+    angular.module('angular1-filters')
         .filter('reverse', [function() {
             function reverseArray(items) {
                 return items.slice().reverse();

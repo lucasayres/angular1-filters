@@ -6,10 +6,13 @@ A collection of useful filters for [AngularJS](http://angularjs.org/).
 
 You can install the latest version of `angular1-filters` with `npm` or `bower`:
 
+### npm
 
 ```bash
 $ npm install angular1-filters
 ```
+
+### bower
 
 ```bash
 $ bower install angular1-filters
@@ -18,7 +21,7 @@ $ bower install angular1-filters
 After running just put inside the modules of your application:
 
 ```javascript
-var app = angular.module('myApp', ['ngSanitize','angular1-filters']);
+var app = angular.module('myApp', ['ngSanitize', 'angular1-filters']);
 ```
 
 ## How to use
@@ -49,6 +52,16 @@ edcba
 [3, 2, 1]
 ```
 
-## Demo Page
+### money
 
-More examples in http://lucasayres.github.io/angular1-filters
+```html
+Input:
+{{ 1000000 | money }}
+{{ 1000000 | money : 'R$ ' : 2 : ',' : '.' }}
+{{ 1000000 | money : '$ ' : 2 : '.' : ',' }}
+
+Output:
+1,000,000.00
+R$ 1.000.000,00
+$ 1,000,000.00
+```
