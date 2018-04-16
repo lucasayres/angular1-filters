@@ -9,13 +9,13 @@ You can install the latest version of `angular1-filters` with `npm` or `bower`:
 ### npm
 
 ```bash
-$ npm install angular1-filters
+$ npm install --save angular1-filters
 ```
 
 ### bower
 
 ```bash
-$ bower install angular1-filters
+$ bower install --save angular1-filters
 ```
 
 After running just put inside the modules of your application:
@@ -37,6 +37,7 @@ To apply a filter:
 The included filters are:
 
 - [`reverse`](#reverse)
+- [`money`](#money)
 
 ### reverse
 
@@ -53,6 +54,8 @@ edcba
 ```
 
 ### money
+
+A filter to add money mask. You can customize with: symbol, precision, decimals, thousands.
 
 ```html
 Input:
