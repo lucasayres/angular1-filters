@@ -55,7 +55,8 @@ edcba
 
 ### money
 
-A filter to add money mask. You can customize with: symbol, precision, decimals, thousands.
+A filter to add money mask.  
+**Parameters:** money : [symbol (default '')] : [precision (default 2)] : [decimals (default '.')] : [thousands (default ',')]
 
 ```html
 Input:
