@@ -1,7 +1,7 @@
 {
     "name": "angular1-filters",
     "description": "A collection of useful filters for AngularJS",
-    "version": "0.0.3",
+    "version": "1.0.0",
     "license": "MIT",
     "main": "dist/angular1-filters.min.js",
     "homepage": "https://github.com/lucasayres/angular1-filters",
@@ -34,9 +34,9 @@
         "src"
     ],
     "dependencies": {
-        "angular": "~1.6.9"
+        "angular": "~1.4.0"
     },
     "devDependencies": {
-        "angular-mocks": "~1.6.9"
+        "angular-mocks": "~1.4.0"
     }
 }
