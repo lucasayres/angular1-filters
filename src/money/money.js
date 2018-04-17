@@ -4,6 +4,9 @@
     angular.module('angular1-filters')
         .filter('money', ['$filter', function($filter) {
             return function(amount, symbol, precision, decimals, thousands) {
+                if (!amount) {
+                    return 0;
+                }
                 symbol = symbol ? [symbol, ''].join(' ') : '';
                 precision = precision ? precision : 2;
                 decimals = decimals ? decimals : '.';
