@@ -281,3 +281,27 @@ Output:
 edcba
 [3, 2, 1]
 ```
+
+## Contributing
+
+- Any contribution is appreciated.
+- If you are planning to add a new filter (or any other feature), please open an issue before.
+- Do you need a specific filter? Please open an issue that we will develop for you.
+
+#### Submitting a Pull Request (PR)
+
+1. Clone the project:
+  ```
+  $ git clone https://github.com/lucasayres/angular1-filters.git
+  ```
+
+2. Make your changes in a new git branch:
+  ```
+  $ git checkout -b my-branch master
+  ```
+
+3. Add your changes.
+
+4. Push your branch to Github.
+
+5. Create a PR to master.
